@@ -78,6 +78,10 @@ inputs:
     required: false
     default: true
 
+  github_pull_request_id:
+    description: The github pull request id that triggered this job
+    required: false
+
 
 outputs:
   git_sha:
